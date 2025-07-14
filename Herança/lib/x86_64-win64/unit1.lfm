@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 372
+  Height = 655
+  Top = 148
+  Width = 1083
+  Caption = 'Form1'
+  ClientHeight = 655
+  ClientWidth = 1083
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 464
+    Height = 15
+    Top = 56
+    Width = 31
+    Caption = 'Menu'
+  end
+  object Cadastro: TButton
+    Left = 416
+    Height = 41
+    Top = 80
+    Width = 131
+    Caption = 'PessoaFísica'
+    TabOrder = 0
+    OnClick = CadastroClick
+  end
+  object Button1: TButton
+    Left = 416
+    Height = 41
+    Top = 144
+    Width = 131
+    Caption = 'Pessoa Juridica'
+    TabOrder = 1
+    OnClick = CadastroPJClick
+  end
+end

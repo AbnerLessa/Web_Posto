@@ -1,0 +1,114 @@
+object Form3: TForm3
+  Left = 310
+  Height = 657
+  Top = 259
+  Width = 1131
+  Caption = 'Form3'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 96
+    Height = 15
+    Top = 32
+    Width = 47
+    Caption = 'Cadastro'
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 15
+    Top = 72
+    Width = 33
+    Caption = 'Nome'
+  end
+  object NomeProduto: TEdit
+    Left = 112
+    Height = 23
+    Top = 72
+    Width = 88
+    TabOrder = 0
+  end
+  object Endereco: TEdit
+    Left = 112
+    Height = 23
+    Top = 112
+    Width = 240
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 232
+    Height = 15
+    Top = 72
+    Width = 21
+    Caption = 'CEP'
+  end
+  object Preco: TLabel
+    Left = 72
+    Height = 1
+    Top = 160
+    Width = 1
+  end
+  object CNPJ: TEdit
+    Left = 112
+    Height = 23
+    Top = 152
+    Width = 128
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 59
+    Height = 15
+    Top = 152
+    Width = 27
+    Caption = 'CNPJ'
+  end
+  object Adicionar: TButton
+    Left = 48
+    Height = 25
+    Top = 280
+    Width = 78
+    Caption = 'Adicionar'
+    TabOrder = 3
+    OnClick = AdicionarClick
+  end
+  object Cancelar: TButton
+    Left = 176
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Cancelar'
+    TabOrder = 4
+    OnClick = CancelarClick
+  end
+  object CEP: TEdit
+    Left = 264
+    Height = 23
+    Top = 72
+    Width = 88
+    TabOrder = 5
+    Text = 'CEP'
+    OnChange = CEPChange
+  end
+  object Label5: TLabel
+    Left = 59
+    Height = 15
+    Top = 112
+    Width = 49
+    Caption = 'Endereco'
+  end
+  object Label6: TLabel
+    Left = 56
+    Height = 15
+    Top = 197
+    Width = 44
+    Caption = 'Telefone'
+  end
+  object Telefone: TEdit
+    Left = 112
+    Height = 23
+    Top = 192
+    Width = 128
+    TabOrder = 6
+  end
+end

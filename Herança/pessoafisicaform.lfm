@@ -1,0 +1,131 @@
+object Form2: TForm2
+  Left = 376
+  Height = 621
+  Top = 160
+  Width = 1075
+  Caption = 'Form2'
+  ClientHeight = 621
+  ClientWidth = 1075
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 99
+    Height = 15
+    Top = 34
+    Width = 47
+    Caption = 'Cadastro'
+  end
+  object Nome: TEdit
+    Left = 99
+    Height = 23
+    Top = 64
+    Width = 101
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 15
+    Top = 64
+    Width = 33
+    Caption = 'Nome'
+  end
+  object Endereco: TEdit
+    Left = 99
+    Height = 23
+    Top = 96
+    Width = 288
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 15
+    Top = 96
+    Width = 49
+    Caption = 'Endereco'
+  end
+  object EditTelefone: TEdit
+    Left = 99
+    Height = 23
+    Top = 168
+    Width = 96
+    TabOrder = 2
+  end
+  object Telefone: TLabel
+    Left = 496
+    Height = 1
+    Top = 56
+    Width = 1
+  end
+  object Label4: TLabel
+    Left = 240
+    Height = 15
+    Top = 64
+    Width = 21
+    Caption = 'CEP'
+  end
+  object CEP: TEdit
+    Left = 272
+    Height = 23
+    Top = 64
+    Width = 115
+    TabOrder = 3
+    OnChange = CEPChange
+  end
+  object CPF: TEdit
+    Left = 99
+    Height = 23
+    Top = 136
+    Width = 288
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 15
+    Top = 136
+    Width = 21
+    Caption = 'CPF'
+  end
+  object Label6: TLabel
+    Left = 40
+    Height = 15
+    Top = 176
+    Width = 44
+    Caption = 'Telefone'
+  end
+  object Adicionar: TButton
+    Left = 48
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Adicionar'
+    TabOrder = 5
+    OnClick = AdicionarClick
+  end
+  object Cancelar: TButton
+    Left = 152
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Cancelar'
+    TabOrder = 6
+    OnClick = CancelarClick
+  end
+  object ListBoxEmpresas: TListBox
+    Left = 448
+    Height = 152
+    Top = 272
+    Width = 208
+    ItemHeight = 0
+    TabOrder = 7
+    OnClick = ListBoxEmpresasClick
+  end
+  object Apagar: TButton
+    Left = 272
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Apagar'
+    TabOrder = 8
+    OnClick = ApagarClick
+  end
+end
